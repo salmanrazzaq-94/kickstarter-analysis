@@ -20,7 +20,7 @@ As the line chart shows, the maximum amount of successes happens in May with a v
 
 (2) The largest spread between successes and failures occurs in the early spring and lasts through early summer while the gap between successes and failures is small in the winter, to the extent that the lines appear to nearly intersect in December. The gap for the spring months is characterized by high success rates for all projects in the months of May (67%), June (65%), and Feb/Apr/July (63%). Meanwhile the success rates for December (49%), October (57%) and January (58%) are the lowest of the twelve months. These values can be seen in the gap between the green and red lines in the chart above, or also can be visualized in the line chart below.
 
-![ian-zukowski](Campaign_Success_vs_Month.png)
+![Campaign_Success_vs_Month](images/Campaign_Success_vs_Month.png)
 
 Based on both metrics it seems that the best time to launch a campaign would be during the months from April - July.
 
