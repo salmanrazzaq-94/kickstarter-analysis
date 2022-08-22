@@ -12,7 +12,7 @@ This analysis was accomplished by looking at data related to "Launch Dates" and 
 
 
 ### Analysis of Outcomes Based on Launch Date
-![ian-zukowski](Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](images/Theater_Outcomes_vs_Launch.png)
 
 This first chart shows the outcome of every project in the "Theater" category organized by the month in which the project was launched. This graph suggests that launching a campaign during the spring offers the best probability of success, which slowly drops off to its lowest probability in late fall/early winter. This trend is shown in two different ways -- the amount of successful campaigns and the gap between successful campaigns and failed campaigns. 
 
@@ -27,11 +27,11 @@ Based on both metrics it seems that the best time to launch a campaign would be 
 
 
 ### Analysis of Outcomes Based on Goals
-![ian-zukowski](Outcomes_vs_Goals_Quartiles.png)
+![Outcomes_vs_Goals_Quartiles](images/Outcomes_vs_Goals_Quartiles.png)
 
 The above chart shows results of Kickstarter campaigns for all projects in the "plays" subcategory. The campaigns have been grouped based on the quartile values for fundraising goals, so each group contains roughly 250-275 "plays" project outcomes. The data shows that for the lowest fundraising goals there is approximately a '3:1' ratio of successful campaigns compared to failures, which slowly decreases to around a '5:2' ratio for campaigns up to $5000. Then for the upper 25% of goal values (those higher than $5000) we can see that the success to failure ratio decreases drastically to a nearly '1:1' ratio. In fact, this last category actually has a slightly heavier weight for failures than for successes.
 
-![ian-zukowski](Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](images/Outcomes_vs_Goals.png)
 
 For a more detailed look at outcomes for the larger goal amounts, the line chart "Outcomes Based on Goal" shows the percentage of successful and failed campaigns for even more categories, this time sectioning the fundraising goal amounts by intervals of roughly $5000. This chart also showcases a similar negative correlation between fundraising goal amounts and probability of a successful outcome. As seen in this chart, the rate of success is only higher for goals of less than $15000 and for goals between $35000-$45000. The chart also shows that when a goal is greater than $5000 there is a sharp increase in the rate of failures as compared to less expensive projects.
 
@@ -43,7 +43,7 @@ One of the major challenges I ran into was the unintentional messaging that the 
 
 The other big challenge I found with the "Outcomes Based on Goal" graph is that it implies an equal distribution between the different fundraising goal intervals. The line chart cannot do justice to the distribution of data since it is majorly skewed right distribution (as can be seen in the Box chart below). In fact, the box chart shows that plays with a goal greater than $10700 are actually considered outliers because so many of the plays use a cheap budget. This means the play Fever is within a few hundred dollars of being considered an outlier because it is such a high goal amount.
 
-![ian-zukowski](Goal_Distributions_BoxPlot.png)
+![Goal_Distributions_BoxPlot](images/Goal_Distributions_BoxPlot.png)
 
 This distribution is not even suggested in the "Outcomes Based on Goal" graph. On that line chart, the first individual data point (projects <$1000) actually represents more projects (186) than the final 9 data points (projects >$10000) all combined (158). It struck me as a problem that 15% of the projects were taking up 75% of the line graph's space.
 
